@@ -1,0 +1,49 @@
+header {
+    height: 500px;
+    background-image: url("../bilder/background2.jpg");
+    background-size: cover;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0px 2px .5em black;
+}
+
+
+
+/*slick slider*/
+#meinSlider {
+    width: 100%;
+}
+
+#meinSlider div img {
+    height: 300px;
+    margin-left: 25%;
+}
+
+.slik-dots {
+    top: 33vh;
+}
+
+.slick-dots li button,
+.slik-dots li button::before {
+    font-size: 12px;
+    width: 30x;
+    height: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+/*slider for mobile*/
+@media (max-width: 800px) {
+
+    #meinSlider div img {
+        margin-left: 0;
+    }
+
+    /*header image*/
+    header {
+        height: 200px;
+    }
+}
+
